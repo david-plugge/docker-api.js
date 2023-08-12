@@ -1,0 +1,15 @@
+{
+    "ts-node": {
+        "esm": true
+    },
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "Bundler",
+        "strict": true,
+        "esModuleInterop": true,
+        "noEmit": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
